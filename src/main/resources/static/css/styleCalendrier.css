@@ -1,0 +1,137 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.adminHeader {
+    background-color: #b40000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b78e7;
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.calendar {
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.calendar th {
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 20px;
+}
+
+.calendar td {
+    font-size: 18px;
+}
+
+.calendar td h3 {
+    margin-bottom: 5px;
+}
+
+.calendar td a {
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.calendar td a:hover {
+    text-decoration: underline;
+}
+
+.moisCalendrier {
+    text-align: center;
+}
+
+.calendar th,
+.calendar td {
+    width: 80px; 
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.calendar td.non-working-day {
+    background-color: #a5a5a5;
+}
+
+.grayBackground {
+    background-color: #a5a5a5 !important;
+}
+.calendar td { font-size: 30px; }
+table.calendar { width: 50%; }
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navigation {
+    font-size: 30px;
+} 
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-container button {
+    margin-right: 10px;
+    width:100px; 
+}
+.greenbutton {
+    background-color: rgb(0, 184, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.greenbutton:hover {
+    background-color: rgb(0, 119, 0);
+}
+
+.reservation-info {
+    font-size:15px;
+    color:red;
+}

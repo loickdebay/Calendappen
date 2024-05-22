@@ -1,0 +1,12 @@
+/*FICHIER TEMPORAIRE VOIR TROUVER MIEUX*/
+header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Ajout de cette ligne pour occuper toute la largeur */
+    position: fixed; /* Ajout de cette ligne pour positionner l'en-tête en haut */
+    top: 0; /* Ajout de cette ligne pour positionner l'en-tête en haut */
+}

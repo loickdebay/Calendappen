@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+  
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    top: 0;
+    text-align: center;
+  }
+ 
+
+button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b78e7;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 30%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+td {
+    width: 33.33%; 
+    border: 1px solid #ddd; 
+    padding: 8px;
+    text-align: center; 
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column; 
+}
+
+th, td {
+    font-size: 20px;
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+.redbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.redbutton:hover {
+    background-color: #c0392b;
+}
+.orangebutton {
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.orangebutton:hover {
+    background-color: #d37204;
+}
+
+.adminHeader {
+    background-color: #b40000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}

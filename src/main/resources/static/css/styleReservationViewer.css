@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    flex-direction: column; 
+}
+
+header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    top: 0;
+    text-align: center;
+}
+
+.orangebutton {
+    background-color: #e98008;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.orangebutton:hover {
+    background-color: #d37204;
+}
+
+button {
+    color: white;
+    background-color: #2980b9;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.header-button {
+    background-color: #2980b9;
+}
+
+button:hover {
+    background-color: #3b78e7;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 30%;
+    background-color: white;
+}
+
+th, td {
+    font-size: 20px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #2980b9;
+}
+
+.adminHeader {
+    background-color: #b40000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.greenbutton {
+    background-color: rgb(0, 184, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.greenbutton:hover {
+    background-color: rgb(0, 119, 0);
+}
